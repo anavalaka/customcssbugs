@@ -450,8 +450,8 @@ section[role="application"] .base-page .bg-block a:not(.btn) {
   border-top-left-radius: 0;
 }
 
-/* label and stuff https://dev.azure.com/akaraisin/raisin/_workitems/edit/30347---start*/
-mat-form-field {  
+/* https://dev.azure.com/akaraisin/raisin/_workitems/edit/30347---start*/
+mat-form-field {  // label and stuff
   label.mat-form-field-label {
     font-family: "Gotham", "Montserrat", verdana, sans-serif, verdana, sans-serif;
     font-size: 14px;
@@ -464,4 +464,14 @@ mat-form-field {
     margin-top: 6px;
   }
 }
-/* label and stuff https://dev.azure.com/akaraisin/raisin/_workitems/edit/30347 -----end*/
+rx-page-content > .is-section > .is-boxes > .is-container > .row > .text-center > h1 { // your information
+  font-family: "Gotham", Montserrat;
+  color: #0055ff;
+  font-size: 40px;
+  font-style: Normal;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: inherit;
+  line-height: 50px;
+}
+/* https://dev.azure.com/akaraisin/raisin/_workitems/edit/30347 -----end*/
