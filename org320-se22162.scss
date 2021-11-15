@@ -1,71 +1,73 @@
+$customfilesurl: 'https://s3.ca-central-1.amazonaws.com/clientcustomfiles';
+
 @font-face {
   font-family: "Gotham";
-  src: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Book.eot");
-  src: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Book.woff")
+  src: url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Book.eot");
+  src: url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Book.woff")
       format("woff"),
-    url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Book.ttf")
+    url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Book.ttf")
       format("truetype"),
-    url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Book.svg")
+    url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Book.svg")
       format("svg");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Gotham";
-  src: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-BookItalic.eot");
-  src: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-BookItalic.woff")
+  src: url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-BookItalic.eot");
+  src: url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-BookItalic.woff")
       format("woff"),
-    url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-BookItalic.ttf")
+    url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-BookItalic.ttf")
       format("truetype"),
-    url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-BookItalic.svg")
+    url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-BookItalic.svg")
       format("svg");
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: "Gotham";
-  src: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Medium.eot");
-  src: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Medium.woff")
+  src: url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Medium.eot");
+  src: url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Medium.woff")
       format("woff"),
-    url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Medium.ttf")
+    url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Medium.ttf")
       format("truetype"),
-    url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Medium.svg")
+    url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Medium.svg")
       format("svg");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Gotham";
-  src: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Bold.eot");
-  src: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Bold.woff")
+  src: url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Bold.eot");
+  src: url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Bold.woff")
       format("woff"),
-    url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Bold.ttf")
+    url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Bold.ttf")
       format("truetype"),
-    url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Bold.svg")
+    url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Bold.svg")
       format("svg");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Gotham";
-  src: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-BoldItalic.eot");
-  src: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-BoldItalic.woff")
+  src: url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-BoldItalic.eot");
+  src: url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-BoldItalic.woff")
       format("woff"),
-    url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-BoldItalic.ttf")
+    url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-BoldItalic.ttf")
       format("truetype"),
-    url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-BoldItalic.svg")
+    url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-BoldItalic.svg")
       format("svg");
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
   font-family: "Gotham";
-  src: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Black.eot");
-  src: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Black.woff")
+  src: url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Black.eot");
+  src: url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Black.woff")
       format("woff"),
-    url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Black.ttf")
+    url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Black.ttf")
       format("truetype"),
-    url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/fonts/gotham/Gotham-Black.svg")
+    url("#{$customfilesurl}/Org_320/jdrf-walk/fonts/gotham/Gotham-Black.svg")
       format("svg");
   font-weight: 900;
   font-style: normal;
@@ -233,7 +235,7 @@ section .base-page {
   position: absolute;
   right: 9px;
   top: 12px;
-  background: url(https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_320/jdrf-walk/images/asset_magnifying-glass_grey.svg)
+  background: url(#{$customfilesurl}/Org_320/jdrf-walk/images/asset_magnifying-glass_grey.svg)
     0 0 no-repeat;
 }
 .fundraiseBtn:hover {
@@ -326,8 +328,6 @@ section .base-page {
   font-family: "Gotham", Montserrat;
 }
 
-.main-footer {
-}
 footer .main-footer .container > div > div {
   float: left;
   color: #fff;
@@ -451,15 +451,17 @@ section[role="application"] .base-page .bg-block a:not(.btn) {
 }
 
 /* label and stuff https://dev.azure.com/akaraisin/raisin/_workitems/edit/30347---start*/
-mat-form-field label.mat-form-field-label {
-  font-family: "Gotham", "Montserrat", verdana, sans-serif, verdana, sans-serif;
-  font-size: 14px;
-  transition-property: transform, color, width, margin-top;
-}
-mat-form-field.mat-focused label.mat-form-field-label {
-  font-family: Montserrat;
-}
-mat-form-field:not(.mat-form-field-should-float) label.mat-form-field-label {
-  margin-top: 6px;
+mat-form-field {  
+  label.mat-form-field-label {
+    font-family: "Gotham", "Montserrat", verdana, sans-serif, verdana, sans-serif;
+    font-size: 14px;
+    transition-property: transform, color, width, margin-top;
+  }
+  &.mat-focused label.mat-form-field-label {
+    font-family: Montserrat;
+  }
+  &:not(.mat-form-field-should-float) label.mat-form-field-label {
+    margin-top: 6px;
+  }
 }
 /* label and stuff https://dev.azure.com/akaraisin/raisin/_workitems/edit/30347 -----end*/
