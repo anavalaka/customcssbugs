@@ -1,0 +1,10 @@
+{
+  "name": "customcssbugs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "anavalaka <arnold.naval@akanewmedia.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.43.4"
+  }
+}
