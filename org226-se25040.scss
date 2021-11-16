@@ -1,0 +1,378 @@
+/*--Header --*/
+.rfx-header--v5 .rfx-header__brand > a {
+  max-width: 50%;
+}
+
+.rfx-header--v5 .rfx-header__logo {
+  background-color: transparent !important;
+  margin: 10px 0;
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.rfx-header--v5 .rfx-header__logo > a {
+  display: inline-block;
+  transition: all 0.4s;
+  position: relative;
+  width: 55%;
+  height: auto;
+}
+
+.rfx-header--v5 .rfx-header__logo > a img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: all 0.4s;
+}
+
+.navbar.navbar-default.rfx-header__nav h2,
+.navbar.navbar-default.rfx-header__nav h2,
+.site-header h2 {
+  font-size: 28px;
+  color: #0677ff;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.navbar.navbar-default.rfx-header__nav h4,
+.navbar.navbar-default.rfx-header__nav h4,
+.site-header h4 {
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*--Nav Bar --*/
+
+/*-- 
+  @media (min-width: 1025px) {
+  .site-header {
+  border-bottom: 3px #ffe652 solid;
+  }
+  } 
+  --*/
+
+@media (min-width: 1025px) {
+  .rfx-header--v5 .rfx-header__menu .dropdown > a {
+    padding: 0 10px !important;
+  }
+}
+
+section[role="application"] .site-header a:hover:not(.btn),
+div[role="application"] .site-header a:hover:not(.btn) {
+  text-decoration: none;
+}
+
+/*-- Nav Buttons--*/
+
+.rs-header-button.login-btn {
+  background-color: #007 !important;
+  border-color: #007 !important;
+  font-style: bold;
+  color: #fff !important;
+}
+
+.rfx-header--v5 .rfx-header__actions .nav-pills > li:last-child > a:hover {
+  background-color: #0677ff;
+  border-color: #0677ff;
+}
+
+/* -- Fonts -- */
+
+body,
+.base-page p,
+.base-page h3,
+.base-page h5,
+.rfx-header--v5 .rfx-header__menu .dropdown > a,
+.rfx-header--v5 .rfx-header__actions .nav-pills > li > a,
+.rfx-header--v5 .rfx-header__actions .nav-pills > li .rs-header-button,
+section[role="application"] .site-header h4,
+.base-page .btn,
+footer p,
+footer span,
+footer .footer-copyright,
+.rfx-header--v5 .rfx-header__menu .dropdown .dropdown-menu .dropdown a,
+.nav-pills > li > a {
+  font-family: "franklin-gothic-atf", sans-serif !important;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.base-page h1,
+.base-page h2,
+.base-page h4,
+section[role="application"] .site-header h2 {
+  font-family: "p22-mackinac-pro", serif !important;
+  font-style: normal;
+  font-weight: 700 !important;
+}
+
+/* -- Scoreboard -- */
+.top-list .name,
+.top-list .raised {
+  font-weight: 400;
+}
+
+/* -- Who Sleeping Out -- */
+.btn-plus {
+  position: relative;
+  padding-right: 34px;
+  font-size: 14px !important;
+  color: inherit;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 1px solid #f8a832;
+  display: inline-block;
+}
+.btn-plus:after {
+  content: "\00a0";
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  background: url("https://raisincdn.akaraisin.com/Org_226/sleep-out-2017/images/icons/plus.svg")
+    no-repeat center;
+  width: 24px;
+  height: 24px;
+  margin-top: -12px;
+}
+
+.btn-plus.active:after {
+  background-image: url("https://raisincdn.akaraisin.com/Org_226/sleep-out-2017/images/icons/minus.svg");
+}
+
+.executive-list {
+  margin: 20px 0;
+}
+.executive-list article {
+  border: 1px solid #979797;
+  max-height: 226px;
+  padding: 20px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  -webkit-transition: max-height 0.4s, opacity 0.4s; /* Safari */
+  transition: max-height 0.4s, opacity 0.4s;
+}
+
+@media only screen and (max-width: 768px) {
+  .executive-list article {
+    max-height: 360px;
+    padding: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    -webkit-transition: max-height 0.4s, opacity 0.4s; /* Safari */
+    transition: max-height 0.4s, opacity 0.4s;
+  }
+}
+
+.executive-list article > img {
+  position: absolute;
+  max-width: 160px;
+}
+.executive-list article > div {
+  margin-left: 180px;
+  min-height: 180px;
+}
+
+.executive-list article h2 {
+  font-size: 28px !important;
+  color: #0677ff !important;
+  margin: 10px 0 5px;
+}
+.executive-list article h5 {
+  font-family: "franklin-gothic-atf", "Open Sans", sans-serif !important;
+  font-size: 16px;
+  margin: 0;
+}
+.executive-list article p {
+  margin: 0 0 20px;
+}
+.executive-list article .btn {
+  font-family: "franklin-gothic-atf", "Open Sans", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.executive-list article .bio {
+  line-height: 1.6;
+  margin-left: 0;
+  margin-top: 15px;
+  opacity: 0;
+  -webkit-transition: max-height 0.4s, opacity 0.4s; /* Safari */
+  transition: max-height 0.4s, opacity 0.4s;
+}
+.executive-list article.active {
+  overflow: visible;
+  max-height: none;
+}
+.executive-list article.active .bio {
+  opacity: 1;
+}
+
+/* Totes */
+.totes article {
+  position: relative;
+}
+.totes h4 {
+  font-family: "franklin-gothic-atf", "Open Sans", sans-serif !important;
+  position: absolute;
+  bottom: 0;
+  color: #fff !important;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  -webkit-transition: background 0.4s; /* Safari */
+  transition: background 0.4s;
+}
+.totes a:hover h4 {
+  background-color: rgba(248, 168, 50, 0.7);
+}
+.totes img {
+  width: 100%;
+}
+
+/*-- All below is OLD CSS--*/
+
+a {
+  color: #008fd1;
+  -webkit-transition: color 0.4s, background 0.4s; /* Safari */
+  transition: color 0.4s, background 0.4s;
+}
+
+a:hover {
+  color: #f8a832;
+  text-decoration: none;
+}
+
+/* donate button isn't clickable */
+.rfx-header--v3 .rfx-header__actions .nav-pills {
+  z-index: 10;
+}
+
+.search-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.search-section .btn {
+  color: #f8a832;
+  margin: 0;
+}
+.search-section .btn:hover {
+  color: #fff;
+}
+
+.search-page .search-results .search-result .search-image img {
+  height: 110px;
+  width: 110px;
+}
+
+.search-page .search-results .search-result .search-entity--no-image {
+  padding-left: 120px;
+}
+
+.search-page .search-results .search-result .btn-search-donate {
+  background-color: #007ac9;
+}
+
+img.img-thumbnail.img-responsive {
+  max-height: 200px;
+}
+
+/*
+  * — Home Page Stats —
+  */
+
+.home-stats .teams,
+.home-stats .participants,
+.home-stats .donations,
+.thermometer-container .home-stats,
+.personal-stats,
+.team-stats,
+.rs-preview .page-stats .stat {
+  color: #000077;
+}
+
+.home-stats .teams {
+  background-image: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_226/EventLocation_23954/cht-icon-group.png");
+}
+.home-stats .participants {
+  background-image: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_226/EventLocation_23954/cht-icon-participants.png");
+}
+
+.home-stats .donations {
+  background-image: url("https://s3.ca-central-1.amazonaws.com/clientcustomfiles/Org_226/EventLocation_23954/cht-icon-heart.png");
+}
+
+/*
+  * — Registration Buttons —
+  */
+
+.section-border.reg-listing .btn-circle {
+  background-color: #007ac9;
+}
+
+/*-- Colour for Donate tabs-- */
+
+.search-page .nav-pills > li.active a,
+.search-page .nav-pills > li.active .nav-pills--label {
+  background-color: #0677ff;
+  border: #0677ff;
+}
+
+.search-page .nav-pills > li.active .arrow {
+  display: block;
+  border-color: #0677ff transparent transparent transparent;
+  _border-color: #0677ff #000000 #000000 #000000;
+}
+
+.search-page .nav-pills > li:hover > a,
+.search-page .nav-pills > li:hover > .nav-pills--label {
+  background-color: #0677ff;
+  border: #0677ff;
+}
+
+.search-page .nav-pills > li:hover .arrow {
+  display: block;
+  border-color: #0677ff transparent transparent transparent;
+  _border-color: #0677ff #000000 #000000 #000000;
+}
+
+section[role="application"].base-page .btn-flow:hover,
+div[role="application"].base-page .btn-flow:hover,
+section[role="application"] .base-page .btn-flow:hover,
+div[role="application"] .base-page .btn-flow:hover {
+  background-color: #007ac9;
+  border-color: #007ac9;
+}
+
+.userDetails .btn-fb,
+.returning-participant .btn.btn-fb,
+.waiver .btn.btn-fb {
+  color: #fff !important;
+}
+
+//new stuff here --------------------------------------------------------------------------
+@mixin ondesktop {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+button.btn.btn-donate {
+  color: #fff !important;
+  background-color: #007ac9 !important;
+  span.icon {
+    margin-top: 1px !important;
+    @include ondesktop() {
+      height: 41px !important;
+      margin: 0px 0px 0px 0px !important;
+      position: relative;
+      left: 9px;
+    }
+  }
+}
