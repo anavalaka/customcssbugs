@@ -451,14 +451,17 @@ section[role="application"] .base-page .bg-block a:not(.btn) {
 }
 
 /* https://dev.azure.com/akaraisin/raisin/_workitems/edit/30347---start*/
+@mixin gotham($fontsize) {
+  font-family: "Gotham", "Montserrat", verdana, sans-serif, verdana, sans-serif;
+  font-size: $fontsize;
+}
+
 mat-form-field {  // label and stuff
   mat-error .raisin-errors div.error-message {
-    font-family: "Gotham", "Montserrat", verdana, sans-serif, verdana, sans-serif;
-    font-size: 12px;
+    @include gotham(12px);
   }
   label.mat-form-field-label {
-    font-family: "Gotham", "Montserrat", verdana, sans-serif, verdana, sans-serif;
-    font-size: 14px;
+    @include gotham(14px);
     transition-property: transform, color, width, margin-top;
   }
   &.mat-focused label.mat-form-field-label {
@@ -466,6 +469,11 @@ mat-form-field {  // label and stuff
   }
   &:not(.mat-form-field-should-float) label.mat-form-field-label {
     margin-top: 6px;
+  }
+  //input element------------------
+  .mat-input-element, .mat-select-value-text {
+    font-family: Montserrat !important;
+    font-size: 16px !important;
   }
 }
 rx-page-content > .is-section > .is-boxes .is-container > .row > .text-center > h1 {
