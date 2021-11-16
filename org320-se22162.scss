@@ -531,13 +531,15 @@ div[data-role="application"] .site-header {
   & button.btn.btn-donate { // that green button on the search
     @include greenbtn();
     @include gotham(16px);
-    span.icon {
-      align-self: center !important;
-      width: 7px !important;
-      height: 18px !important;
-      margin: 0px 0px 3px 0px !important;
-      position: relative !important;
-      left: 7px;
+    @include ondesktop {
+      span.icon {
+        align-self: center !important;
+        width: 7px !important;
+        height: 18px !important;
+        margin: 0px 0px 3px 0px !important;
+        position: relative !important;
+        left: 7px;
+      }
     }
   }
 }
