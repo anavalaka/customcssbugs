@@ -509,19 +509,19 @@ section#userDetails article.connect-fb > p {
   background-color: #8ab134 !important;
 }
 
-section[role="application"].base-page .btn-donate,
-div[role="application"].base-page .btn-donate,
-section[data-role="application"].base-page .btn-donate,
-div[data-role="application"].base-page .btn-donate,
-section[role="application"] .base-page .btn-donate,
-div[role="application"] .base-page .btn-donate,
-section[data-role="application"] .base-page .btn-donate,
-div[data-role="application"] .base-page .btn-donate,
-section[role="application"] .site-header .btn-donate,
-div[role="application"] .site-header .btn-donate,
-section[data-role="application"] .site-header .btn-donate,
-div[data-role="application"] .site-header .btn-donate {
-  &.btn {
+section[role="application"].base-page,
+div[role="application"].base-page,
+section[data-role="application"].base-page,
+div[data-role="application"].base-page,
+section[role="application"] .base-page,
+div[role="application"] .base-page,
+section[data-role="application"] .base-page,
+div[data-role="application"] .base-page,
+section[role="application"] .site-header,
+div[role="application"] .site-header,
+section[data-role="application"] .site-header,
+div[data-role="application"] .site-header {
+  & button.btn.btn-donate {
     @include greenbtn();
     @include gotham(16px);
   }
