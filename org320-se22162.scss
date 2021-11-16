@@ -492,7 +492,7 @@ rx-page-content > .is-section > .is-boxes .is-container > .row > .text-center {
     @include gotham(14px);
   }
 }
-article.connect-fb > p {
+section#userDetails article.connect-fb > p {
   /* Connect your facebook churva */
   @include gotham(14px);
 }
