@@ -1,5 +1,6 @@
 // be sure to enable this on chrome
 // chrome://flags/#allow-insecure-localhost
+// then run this command "yarn run sass <filename.scss> output/style.css"
 
 const id = 'my-injected-style';
 
