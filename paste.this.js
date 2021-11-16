@@ -5,6 +5,6 @@ setInterval(() => {
   const link = document.createElement('link');
   link.id = id;
   link.rel = 'stylesheet';
-  link.href = `https://any.thing/output/style.css?time=${new Date().getTime()}`;
+  link.href = `https://127.0.0.1:64666/output/style.css?time=${new Date().getTime()}`;
   document.head.prepend(link);
 }, 3000);

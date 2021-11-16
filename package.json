@@ -5,6 +5,10 @@
   "author": "anavalaka <arnold.naval@akanewmedia.com>",
   "license": "MIT",
   "dependencies": {
+    "http-server": "^14.0.0",
     "sass": "^1.43.4"
+  },
+  "scripts": {
+    "start": "yarn run http-server . --ssl --cert=cert.pem --port=64666"
   }
 }
