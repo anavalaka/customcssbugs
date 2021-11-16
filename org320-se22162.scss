@@ -1,4 +1,4 @@
-$customfilesurl: 'https://s3.ca-central-1.amazonaws.com/clientcustomfiles';
+$customfilesurl: "https://s3.ca-central-1.amazonaws.com/clientcustomfiles";
 // $customfilesurl: '/ClientCustomFiles'; // before
 
 @font-face {
@@ -451,13 +451,14 @@ section[role="application"] .base-page .bg-block a:not(.btn) {
   border-top-left-radius: 0;
 }
 
-/* https://dev.azure.com/akaraisin/raisin/_workitems/edit/30347---start*/
+/*https://dev.azure.com/akaraisin/raisin/_workitems/edit/30347*/
 @mixin gotham($fontsize) {
   font-family: "Gotham", "Montserrat", verdana, sans-serif, verdana, sans-serif;
   font-size: $fontsize;
 }
 
-mat-form-field {  // label and stuff
+mat-form-field {
+  // label and stuff
   mat-error .raisin-errors div.error-message {
     @include gotham(12.18px);
   }
@@ -472,7 +473,8 @@ mat-form-field {  // label and stuff
     margin-top: 6px;
   }
   //input element------------------
-  .mat-input-element, .mat-select-value-text {
+  .mat-input-element,
+  .mat-select-value-text {
     font-family: Montserrat !important;
     font-size: 16px !important;
   }
@@ -497,4 +499,30 @@ section#userDetails article.connect-fb > p {
   /* Connect your facebook churva */
   @include gotham(14px);
 }
-/* https://dev.azure.com/akaraisin/raisin/_workitems/edit/30347 -----end*/
+/*https://dev.azure.com/akaraisin/raisin/_workitems/edit/30396*/
+@mixin greenbtn() {
+  text-transform: none !important;
+  color: #fff !important;
+  height: 36px !important;
+  width: 116px !important;
+  border-radius: 4px !important;
+  background-color: #8ab134 !important;
+}
+
+section[role="application"].base-page .btn-donate,
+div[role="application"].base-page .btn-donate,
+section[data-role="application"].base-page .btn-donate,
+div[data-role="application"].base-page .btn-donate,
+section[role="application"] .base-page .btn-donate,
+div[role="application"] .base-page .btn-donate,
+section[data-role="application"] .base-page .btn-donate,
+div[data-role="application"] .base-page .btn-donate,
+section[role="application"] .site-header .btn-donate,
+div[role="application"] .site-header .btn-donate,
+section[data-role="application"] .site-header .btn-donate,
+div[data-role="application"] .site-header .btn-donate {
+  &.btn {
+    @include greenbtn();
+    @include gotham(16px);
+  }
+}
