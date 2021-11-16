@@ -525,8 +525,12 @@ div[data-role="application"] .site-header {
     @include greenbtn();
     @include gotham(16px);
     span.icon {
-      width: 7px;
-      height: 18px;
+      align-self: center !important;
+      width: 7px !important;
+      height: 18px !important;
+      margin: 0px 0px 3px 0px !important;
+      position: relative !important;
+      left: 7px;
     }
   }
 }
