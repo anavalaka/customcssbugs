@@ -458,7 +458,7 @@ section[role="application"] .base-page .bg-block a:not(.btn) {
 
 mat-form-field {  // label and stuff
   mat-error .raisin-errors div.error-message {
-    @include gotham(12px);
+    @include gotham(12.18px);
   }
   label.mat-form-field-label {
     @include gotham(14px);
