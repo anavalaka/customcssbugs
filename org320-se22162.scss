@@ -456,6 +456,11 @@ section[role="application"] .base-page .bg-block a:not(.btn) {
   font-family: "Gotham", "Montserrat", verdana, sans-serif, verdana, sans-serif;
   font-size: $fontsize;
 }
+@mixin ondesktop {
+  @media (min-width: 768px) {
+    @content
+  }
+}
 
 mat-form-field {
   // label and stuff
@@ -503,10 +508,12 @@ section#userDetails article.connect-fb > p {
 @mixin greenbtn($customcolor: #8ab134) {
   text-transform: none !important;
   color: #fff !important;
-  height: 36px !important;
-  width: 116px !important;
-  border-radius: 4px !important;
   background-color: $customcolor !important;
+  @include ondesktop {
+    height: 36px !important;
+    width: 116px !important;
+    border-radius: 4px !important;
+  }
 }
 
 section[role="application"].base-page,
