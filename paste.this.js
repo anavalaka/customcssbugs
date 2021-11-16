@@ -1,3 +1,6 @@
+// be sure to enable this on chrome
+// chrome://flags/#allow-insecure-localhost
+
 const id = 'my-injected-style';
 
 setInterval(() => {
