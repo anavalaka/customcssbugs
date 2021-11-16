@@ -500,13 +500,13 @@ section#userDetails article.connect-fb > p {
   @include gotham(14px);
 }
 /*https://dev.azure.com/akaraisin/raisin/_workitems/edit/30396*/
-@mixin greenbtn() {
+@mixin greenbtn($customcolor: #8ab134) {
   text-transform: none !important;
   color: #fff !important;
   height: 36px !important;
   width: 116px !important;
   border-radius: 4px !important;
-  background-color: #8ab134 !important;
+  background-color: $customcolor !important;
 }
 
 section[role="application"].base-page,
