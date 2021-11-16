@@ -476,15 +476,24 @@ mat-form-field {  // label and stuff
     font-size: 16px !important;
   }
 }
-rx-page-content > .is-section > .is-boxes .is-container > .row > .text-center > h1 {
-  /* "Your Information" banner */
-  font-family: "Gotham", Montserrat;
-  color: #0055ff;
-  font-size: 40px;
-  font-style: Normal;
-  font-weight: 400;
-  text-transform: none;
-  letter-spacing: inherit;
-  line-height: 50px;
+rx-page-content > .is-section > .is-boxes .is-container > .row > .text-center {
+  > h1 {
+    /* "Your Information" banner */
+    font-family: "Gotham", Montserrat;
+    color: #0055ff;
+    font-size: 40px;
+    font-style: Normal;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: inherit;
+    line-height: 50px;
+  }
+  > p {
+    @include gotham(14px);
+  }
+}
+article.connect-fb > p {
+  /* Connect your facebook churva */
+  @include gotham(14px);
 }
 /* https://dev.azure.com/akaraisin/raisin/_workitems/edit/30347 -----end*/
