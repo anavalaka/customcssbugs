@@ -12,5 +12,5 @@ link.id = id;
 link.rel = 'stylesheet';
 document.head.prepend(link);
 setInterval(() => {
-  link.href = `https://127.0.0.1:64666/output/style.css?time=${new Date().getTime()}`;
+  link.href = `https://127.0.0.1:64666/output/org226-se25040.css?time=${new Date().getTime()}`;
 }, 3000);
