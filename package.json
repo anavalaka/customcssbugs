@@ -9,6 +9,6 @@
     "sass": "^1.43.4"
   },
   "scripts": {
-    "start": "yarn run http-server . --ssl --cert=cert.pem --port=64666"
+    "start": "yarn run http-server . --ssl --cert=localhost-certs/cert.pem --key=localhost-certs/key.pem --port=64666"
   }
 }
