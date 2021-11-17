@@ -275,8 +275,10 @@ a:hover {
   padding-left: 120px;
 }
 
-.search-page .search-results .search-result .btn-search-donate {
-  background-color: #007ac9;
+.search-page .search-results .search-result {
+  .btn-search-donate, .btn-circle.btn-lg {
+    background-color: #007ac9;
+  }
 }
 
 img.img-thumbnail.img-responsive {
