@@ -458,7 +458,7 @@ section[role="application"] .base-page .bg-block a:not(.btn) {
 }
 @mixin ondesktop {
   @media (min-width: 768px) {
-    @content
+    @content;
   }
 }
 
@@ -528,7 +528,8 @@ section[role="application"] .site-header,
 div[role="application"] .site-header,
 section[data-role="application"] .site-header,
 div[data-role="application"] .site-header {
-  & button.btn.btn-donate { // that green button on the search
+  & button.btn.btn-donate {
+    // that green button on the search
     @include greenbtn();
     @include gotham(16px);
     @include ondesktop {
@@ -539,6 +540,18 @@ div[data-role="application"] .site-header {
         margin: 0px 0px 3px 0px !important;
         position: relative !important;
         left: 7px;
+      }
+    }
+  }
+}
+
+rx-credit-card-payment.credit-card-payment {
+  .mat-form-field-subscript-wrapper.has-expirydate-error {
+    mat-error.mat-error {
+      @include gotham(12.18px !important);
+      font-weight: 400;
+      @include ondesktop {
+        padding-top: 5px !important;
       }
     }
   }
